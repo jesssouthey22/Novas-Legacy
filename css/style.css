@@ -1,0 +1,234 @@
+/*BUTTONS*/
+
+
+#donatebtn, #learnmorebtn, #volunteerbtn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    line-height: 45px;
+}
+
+#donatebtn{
+    background-color: #E47027;
+    color: white;
+    border: white solid 1px;
+
+}
+
+#donatebtn:hover{
+    color: #E47027;
+    background-color: white;
+    border: #E47027 solid 1px;
+}
+
+#learnmorebtn{
+
+    background-color: #4E4B62;
+    color: white;
+    border: white solid 1px;
+    
+
+}
+
+#learnmorebtn:hover{
+    color: #4E4B62;
+    background-color: white;
+    border: #4E4B62 solid 1px;
+}
+
+#volunteerbtn{
+
+    background-color: #5D775A;
+    color: white;
+    border: white solid 1px;
+    
+}
+
+#volunteerbtn:hover{
+    color: #5D775A;
+    background-color: white;
+    border: #5D775A solid 1px;
+}
+
+/* TYPOGRAPHY */
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    color: #203727;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #203727;
+    font-size: 42px;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #5D775A;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #5D775A;
+    font-size: 20px;
+}
+
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    color: #203727;
+}
+
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif; */
+
+/* GLOBAL NAV */
+
+#donatebutton {
+    background-color: #E47027;
+    color: white;
+    border: white solid 1px;
+}
+
+#donatebutton:hover{
+    color: #E47027;
+    background-color: white;
+    border: #E47027 solid 1px;
+}
+
+#volunteerbutton {
+    background-color: #5D775A;
+    color: white;
+    border: white solid 1px;
+}
+
+#volunteerbutton:hover{
+    color: #5D775A;
+    background-color: white;
+    border: #5D775A solid 1px;
+}
+
+
+
+/*HEADER*/
+
+header{
+    background-image: url(../images/HeaderPhoto.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    
+}
+
+#welcome {
+    text-align: left;
+    padding:50px;
+    top: 150px;
+}
+
+
+
+/*INTRO ICONS*/
+
+#introicons{
+background-color: #FBF9F2;
+
+}
+
+
+/*HOMEPAGE VOLUNTEER*/
+
+#homevolunteer{
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #FBF9F2;
+}
+
+/* HOMEPAGE DONATE*/
+
+#homedonate{
+    padding: 30px;
+    margin: 0 auto;
+
+}
+
+/*HOMEPAGE ANIMALS*/
+
+#homeanimals{
+    background-color: #CED6CE;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+ .container {
+    position: relative;
+    width: 250px;
+    
+  }
+  
+  .image {
+    display: block;
+    width: 250px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+    /* left: 0;
+    right: 0; */
+    background-color: rgb(255, 255, 255,0.25);
+    /* box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37); */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    overflow: hidden;
+    height: 100px;
+    transition: .5s ease;
+
+  }
+  
+  .container:hover .overlay {
+    width: 250px;
+    height: 80%;
+    border-radius: 16px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
+
+
+/*VISIT US*/
+#homevisitus{
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.card{
+    border-radius: 16px;
+}
