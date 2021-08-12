@@ -120,6 +120,7 @@ font-family: 'Ubuntu Condensed', sans-serif; */
 
 
 
+
 /*HEADER*/
 
 header{
@@ -155,6 +156,10 @@ background-color: #FBF9F2;
     background-color: #FBF9F2;
 }
 
+.list{
+    list-style-type: none;
+}
+
 /* HOMEPAGE DONATE*/
 
 #homedonate{
@@ -166,7 +171,7 @@ background-color: #FBF9F2;
 /*HOMEPAGE ANIMALS*/
 
 #homeanimals{
-    background-color: #CED6CE;
+    background-color: #EEF3EE;
     padding: 30px;
     margin: 0 auto;
 }
@@ -198,7 +203,7 @@ background-color: #FBF9F2;
     border-top-left-radius: 0px;
     /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
     overflow: hidden;
-    height: 100px;
+    height: 30%;
     transition: .5s ease;
 
   }
@@ -206,21 +211,22 @@ background-color: #FBF9F2;
   .container:hover .overlay {
     width: 250px;
     height: 80%;
-    border-radius: 16px;
+    border-radius: 14px;
   }
   
   .text {
     color: white;
-    font-size: 20px;
+    font-size: 18x;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 30%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -50%);
     text-align: left;
   }
 
+  /* was: transform: translate(-50%, -50%); */
 
 
 /*VISIT US*/
@@ -231,4 +237,27 @@ background-color: #FBF9F2;
 
 .card{
     border-radius: 16px;
+}
+
+
+
+
+/*ABOUT US PAGE*/
+
+.headeraboutus{
+    background-image: url(/images/HeaderAboutUs.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 508px;
+}
+
+.breadcrumb{
+    float: right;
+}
+
+
+
+.pagetitle{
+    text-align: center;
 }
