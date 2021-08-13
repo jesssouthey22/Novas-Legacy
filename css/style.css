@@ -28,7 +28,6 @@
     background-color: #4E4B62;
     color: white;
     border: white solid 1px;
-    
 
 }
 
@@ -37,6 +36,7 @@
     background-color: white;
     border: #4E4B62 solid 1px;
 }
+
 
 #volunteerbtn{
 
@@ -118,6 +118,18 @@ font-family: 'Ubuntu Condensed', sans-serif; */
     border: #5D775A solid 1px;
 }
 
+#loginbutton {
+    color: #E47027;
+    background-color: white;
+    border: #E47027 solid 1px;
+}
+
+#loginbutton:hover{
+
+    background-color: #E47027;
+    color: white;
+    border: white solid 1px;
+}
 
 
 
@@ -239,6 +251,64 @@ background-color: #FBF9F2;
     border-radius: 16px;
 }
 
+/*CUB CORNER*/
+
+#cubcorner {
+    background-color: #F2F4F5;
+}
+
+/*DID YOU KNOW*/
+
+
+#didyouknow{
+    background-color: #FBF9F2;
+}
+
+#cta {
+    background-color: white;
+    height: 80px;
+    padding-top: 10px;
+}
+
+
+
+/* .didyouknowGrid {
+    display: grid;
+    max-width: 1500px;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 40%;
+    grid-template-rows: 235px 235px 235px;
+    grid-template-areas: 
+    "title title title title"
+    "icon1 icon2 icon3 dykphoto"
+    "cta cta cta cta";
+    margin: 0 auto;
+}
+
+#title {
+    grid-area: title;
+}
+
+#icon1 {
+    grid-area: icon1;
+}
+
+
+#icon2 {
+    grid-area: icon2;
+}
+
+#icon3 {
+    grid-area: icon3;
+}
+
+#dykphoto {
+    grid-area: dykphoto;
+}
+
+#cta {
+    grid-area: cta;
+} */
 
 
 
