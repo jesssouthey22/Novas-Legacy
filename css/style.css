@@ -222,7 +222,7 @@ background-color: #FBF9F2;
   
   .container:hover .overlay {
     width: 250px;
-    height: 80%;
+    height: 90%;
     border-radius: 14px;
   }
   
