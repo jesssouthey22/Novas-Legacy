@@ -163,6 +163,12 @@ font-family: 'Ubuntu Condensed', sans-serif; */
     margin-right: .1rem;
   }
 
+  .dropdown-menu{
+    border-bottom-right-radius: 16px;  
+    border: white;
+    box-shadow: 0 0px 12px 0 rgba(128, 129, 131, 0.37);
+  }
+
   .navbar{
       font-family: 'Mulish', sans-serif;
       color:#203727;
@@ -559,9 +565,10 @@ header h3{
 }
 
 .navbuttons {
-    diplay:flex;
+    display:flex;
     display: inline-block;
-    align-items: centre;
+    align-items: center;
+    justify-content: center;
 }
 
 }
