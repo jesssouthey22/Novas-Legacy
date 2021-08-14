@@ -1,5 +1,5 @@
 
-
+/*BUTTONS*/
 
 #donatebtn, #learnmorebtn, #volunteerbtn {
     font-family: 'Mulish', sans-serif;
@@ -52,6 +52,18 @@
     border: #5D775A solid 1px;
 }
 
+#adoptbtn {
+    background-color: #E47027;
+    color: white;
+    border: white solid 1px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    line-height: 28px;
+
+}
 /* TYPOGRAPHY */
 
 h1{
@@ -133,6 +145,7 @@ font-family: 'Ubuntu Condensed', sans-serif; */
 
 
 
+
 /*HEADER*/
 
 header{
@@ -141,10 +154,11 @@ header{
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    margin: 0 auto;
     
 }
 
-#welcome {
+.welcome {
     text-align: left;
     /* padding:50px; */
     top: 150px;
@@ -288,7 +302,11 @@ background-color: #FBF9F2;
     height: 80px;
     padding-top: 10px;
 }
+/*FOOTER*/
 
+.nav-link {
+    color:#203727;
+}
 
 
 /* .didyouknowGrid {
@@ -416,6 +434,11 @@ p{
     display: none;
 }
 
+#donatebutton, #volunteerbutton, #loginbutton{
+    font-size: 11px;
+    padding: 6px;
+}
+
 .emailNone{
     display:none;
 }
@@ -424,17 +447,28 @@ p{
 
 header{
     background-image: url(../images/HeaderPhoto.png);
-    height: 500px;
+    height: 600px !important;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     
 }
 
-#welcome {
+header h1{
+
+    font-size: 24px;
+
+}
+
+header h3{
+    font-size: 18px;
+}
+
+.welcome {
     text-align: left;
-    /* padding:50px; */
-    top: 50px;
+    padding:0;
+    top: 20px;
+    width:20px;
 }
 
 /*ICONS*/
@@ -481,6 +515,17 @@ header{
     padding: 6px;
     align-items: center;
     margin: 0 auto;
+}
+
+.footernavitems{
+    text-align: center;
+
+}
+
+.navbuttons {
+    diplay:flex;
+    display: inline-block;
+    align-items: centre;
 }
 
 }
