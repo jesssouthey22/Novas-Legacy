@@ -1,4 +1,4 @@
-/*BUTTONS*/
+
 
 
 #donatebtn, #learnmorebtn, #volunteerbtn {
@@ -146,7 +146,7 @@ header{
 
 #welcome {
     text-align: left;
-    padding:50px;
+    /* padding:50px; */
     top: 150px;
 }
 
@@ -170,6 +170,7 @@ background-color: #FBF9F2;
 
 .list{
     list-style-type: none;
+    padding:0;
 }
 
 /* HOMEPAGE DONATE*/
@@ -257,6 +258,24 @@ background-color: #FBF9F2;
     background-color: #F2F4F5;
 }
 
+/*PARTNERS*/
+
+.partner1 {
+    width: 200x;
+}
+
+.partner2 {
+    width: 180px;
+}
+
+.partner3 {
+    width: 200px;
+}
+
+.partner4 {
+    width: 120px;
+}
+
 /*DID YOU KNOW*/
 
 
@@ -312,6 +331,8 @@ background-color: #FBF9F2;
 
 
 
+
+
 /*ABOUT US PAGE*/
 
 .headeraboutus{
@@ -330,4 +351,136 @@ background-color: #FBF9F2;
 
 .pagetitle{
     text-align: center;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px){
+
+/* TYPOGRAPHY */
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    color: #203727;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #203727;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #5D775A;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #5D775A;
+    font-size: 20px;
+}
+
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    color: #203727;
+    font-size: 14px;
+}
+
+
+/*BUTTONS*/
+
+
+#donatebtn, #learnmorebtn, #volunteerbtn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    line-height: 35px;
+}
+
+/*GLOBAL NAV*/
+
+.phoneNone {
+    display: none;
+}
+
+.emailNone{
+    display:none;
+}
+
+/*HEADER*/
+
+header{
+    background-image: url(../images/HeaderPhoto.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    
+}
+
+#welcome {
+    text-align: left;
+    /* padding:50px; */
+    top: 50px;
+}
+
+/*ICONS*/
+
+.icon1, .icondyk {
+    width: 50px;
+    padding:0 !important;
+}
+
+.introiconbox{
+    display:inline-block;
+    align-items: baseline;
+    width: 130px;
+    padding: 6px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*PARTNERS*/
+
+#partners{
+    margin:0 auto;
+}
+.partnerbox {
+    display:inline-block;
+    align-items: baseline;
+    width: 130px;
+    padding: 6px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.partner1icon, .partner2icon, .partner3icon, .partner2icon{
+    width:130px;
+}
+
+
+/*CUB CORNER*/
+
+.dykbox{
+    display:inline-block;
+    align-items: baseline;
+    width: 100px;
+    padding: 6px;
+    align-items: center;
+    margin: 0 auto;
+}
+
 }
