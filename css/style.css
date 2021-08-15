@@ -64,6 +64,10 @@
     line-height: 28px;
 
 }
+
+.button-align{
+    text-align: right;
+}
 /* TYPOGRAPHY */
 
 h1{
@@ -202,6 +206,7 @@ header{
 
 .welcome {
     text-align: left;
+    padding-right: 30px;
     /* padding:50px; */
     top: 150px;
 }
@@ -468,6 +473,7 @@ p{
     width: auto;
     height: auto;
     line-height: 35px;
+    
 }
 
 /*GLOBAL NAV*/
@@ -508,9 +514,9 @@ header h3{
 
 .welcome {
     text-align: left;
-    padding:0;
+    padding-right:30px;
+    padding-left: 130px !important;
     top: 20px;
-    width:20px;
 }
 
 /*ICONS*/
@@ -564,11 +570,14 @@ header h3{
 
 }
 
-.navbuttons {
-    display:flex;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+.socials-contact {
+    text-align: center;
 }
 
+#footer h1{
+    text-align: center;
 }
+
+
+}
+
