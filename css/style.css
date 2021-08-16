@@ -326,6 +326,10 @@ background-color: #FBF9F2;
 
 /*PARTNERS*/
 
+#partners{
+    padding-top: 30px;
+    height:400px;
+}
 .partner1 {
     width: 200x;
 }
@@ -566,6 +570,8 @@ header h3{
 
 #partners{
     margin:0 auto;
+    height:400px;
+    padding-top: 10px;
 }
 .partnerbox {
     display:inline-block;
